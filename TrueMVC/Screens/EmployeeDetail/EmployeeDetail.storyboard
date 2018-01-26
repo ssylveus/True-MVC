@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ES7-dQ-UJ1">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Employee Detail Controller-->
+        <scene sceneID="NVe-1c-BOE">
+            <objects>
+                <viewController storyboardIdentifier="EmployeeDetailController" id="ES7-dQ-UJ1" customClass="EmployeeDetailController" customModule="TrueMVC" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vxy-YR-h2N" customClass="EmployeeDetailView" customModule="TrueMVC" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WlL-S9-paZ">
+                                <rect key="frame" x="16" y="148" width="343" height="24"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c3s-cV-8AH">
+                                <rect key="frame" x="16" y="190" width="343" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="c3s-cV-8AH" firstAttribute="top" secondItem="WlL-S9-paZ" secondAttribute="bottom" constant="18" id="5kw-Iz-WiM"/>
+                            <constraint firstItem="c3s-cV-8AH" firstAttribute="leading" secondItem="BU3-yd-ugx" secondAttribute="leading" constant="16" id="HwW-tC-KGg"/>
+                            <constraint firstItem="BU3-yd-ugx" firstAttribute="trailing" secondItem="WlL-S9-paZ" secondAttribute="trailing" constant="16" id="LdC-Qb-sMX"/>
+                            <constraint firstItem="WlL-S9-paZ" firstAttribute="top" secondItem="BU3-yd-ugx" secondAttribute="top" constant="128" id="UlF-TE-9qH"/>
+                            <constraint firstItem="WlL-S9-paZ" firstAttribute="leading" secondItem="BU3-yd-ugx" secondAttribute="leading" constant="16" id="XhL-wo-Trn"/>
+                            <constraint firstItem="BU3-yd-ugx" firstAttribute="trailing" secondItem="c3s-cV-8AH" secondAttribute="trailing" constant="16" id="Y09-wr-s3T"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="BU3-yd-ugx"/>
+                        <connections>
+                            <outlet property="departmentLabel" destination="c3s-cV-8AH" id="PSz-k2-YVn"/>
+                            <outlet property="nameLabel" destination="WlL-S9-paZ" id="Pwz-jF-hUi"/>
+                        </connections>
+                    </view>
+                    <connections>
+                        <outlet property="employeeDetailView" destination="vxy-YR-h2N" id="F17-Y5-3rX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rtd-wh-yNM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="696.79999999999995" y="-36.431784107946029"/>
+        </scene>
+    </scenes>
+</document>

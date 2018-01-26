@@ -8,12 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		2409F6AA201A5B8E003E1588 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2409F6A9201A5B8E003E1588 /* AppDelegate.swift */; };
-		2409F6AC201A5B8E003E1588 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2409F6AB201A5B8E003E1588 /* ViewController.swift */; };
-		2409F6AF201A5B8E003E1588 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2409F6AD201A5B8E003E1588 /* Main.storyboard */; };
 		2409F6B1201A5B8E003E1588 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2409F6B0201A5B8E003E1588 /* Assets.xcassets */; };
 		2409F6B4201A5B8E003E1588 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2409F6B2201A5B8E003E1588 /* LaunchScreen.storyboard */; };
-		2409F6BF201A5B8E003E1588 /* TrueMVCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2409F6BE201A5B8E003E1588 /* TrueMVCTests.swift */; };
 		2409F6CA201A5B8E003E1588 /* TrueMVCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2409F6C9201A5B8E003E1588 /* TrueMVCUITests.swift */; };
+		2409F6E3201A5C53003E1588 /* Employees.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2409F6E2201A5C53003E1588 /* Employees.storyboard */; };
+		2409F6E5201A5C6B003E1588 /* EmployeeDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2409F6E4201A5C6B003E1588 /* EmployeeDetail.storyboard */; };
+		2409F6E7201A5C7F003E1588 /* EmployeeDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2409F6E6201A5C7F003E1588 /* EmployeeDetailController.swift */; };
+		2409F6EB201A5CA8003E1588 /* EmployeeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2409F6EA201A5CA8003E1588 /* EmployeeDetailView.swift */; };
+		2409F6ED201A5CBA003E1588 /* EmployeesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2409F6EC201A5CBA003E1588 /* EmployeesView.swift */; };
+		2409F6EF201A5CC6003E1588 /* EmployeeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2409F6EE201A5CC6003E1588 /* EmployeeModel.swift */; };
+		2409F6F5201A5E10003E1588 /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2409F6F4201A5E10003E1588 /* Employee.swift */; };
+		242F0E31201A75CF00EF1E07 /* EmployeeControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242F0E30201A75CF00EF1E07 /* EmployeeControllerTests.swift */; };
+		242F0E33201A75F100EF1E07 /* EmployeeViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242F0E32201A75F100EF1E07 /* EmployeeViewTests.swift */; };
+		242F0E35201A760E00EF1E07 /* EmployeeModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242F0E34201A760E00EF1E07 /* EmployeeModelTests.swift */; };
+		24D789BE201A5E910040CE0E /* EmployeesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D789BD201A5E910040CE0E /* EmployeesController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,17 +44,25 @@
 /* Begin PBXFileReference section */
 		2409F6A6201A5B8E003E1588 /* TrueMVC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrueMVC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2409F6A9201A5B8E003E1588 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2409F6AB201A5B8E003E1588 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2409F6AE201A5B8E003E1588 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2409F6B0201A5B8E003E1588 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2409F6B3201A5B8E003E1588 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2409F6B5201A5B8E003E1588 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2409F6BA201A5B8E003E1588 /* TrueMVCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrueMVCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2409F6BE201A5B8E003E1588 /* TrueMVCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrueMVCTests.swift; sourceTree = "<group>"; };
 		2409F6C0201A5B8E003E1588 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2409F6C5201A5B8E003E1588 /* TrueMVCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrueMVCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2409F6C9201A5B8E003E1588 /* TrueMVCUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrueMVCUITests.swift; sourceTree = "<group>"; };
 		2409F6CB201A5B8E003E1588 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2409F6E2201A5C53003E1588 /* Employees.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Employees.storyboard; sourceTree = "<group>"; };
+		2409F6E4201A5C6B003E1588 /* EmployeeDetail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = EmployeeDetail.storyboard; sourceTree = "<group>"; };
+		2409F6E6201A5C7F003E1588 /* EmployeeDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeDetailController.swift; sourceTree = "<group>"; };
+		2409F6EA201A5CA8003E1588 /* EmployeeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeDetailView.swift; sourceTree = "<group>"; };
+		2409F6EC201A5CBA003E1588 /* EmployeesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeesView.swift; sourceTree = "<group>"; };
+		2409F6EE201A5CC6003E1588 /* EmployeeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeModel.swift; sourceTree = "<group>"; };
+		2409F6F4201A5E10003E1588 /* Employee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
+		242F0E30201A75CF00EF1E07 /* EmployeeControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeControllerTests.swift; sourceTree = "<group>"; };
+		242F0E32201A75F100EF1E07 /* EmployeeViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeViewTests.swift; sourceTree = "<group>"; };
+		242F0E34201A760E00EF1E07 /* EmployeeModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeModelTests.swift; sourceTree = "<group>"; };
+		24D789BD201A5E910040CE0E /* EmployeesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeesController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +113,9 @@
 		2409F6A8201A5B8E003E1588 /* TrueMVC */ = {
 			isa = PBXGroup;
 			children = (
+				2409F6F3201A5DDB003E1588 /* DataModels */,
+				2409F6F2201A5DD4003E1588 /* Screens */,
 				2409F6A9201A5B8E003E1588 /* AppDelegate.swift */,
-				2409F6AB201A5B8E003E1588 /* ViewController.swift */,
-				2409F6AD201A5B8E003E1588 /* Main.storyboard */,
 				2409F6B0201A5B8E003E1588 /* Assets.xcassets */,
 				2409F6B2201A5B8E003E1588 /* LaunchScreen.storyboard */,
 				2409F6B5201A5B8E003E1588 /* Info.plist */,
@@ -110,7 +126,7 @@
 		2409F6BD201A5B8E003E1588 /* TrueMVCTests */ = {
 			isa = PBXGroup;
 			children = (
-				2409F6BE201A5B8E003E1588 /* TrueMVCTests.swift */,
+				242F0E2C201A756A00EF1E07 /* Screens */,
 				2409F6C0201A5B8E003E1588 /* Info.plist */,
 			);
 			path = TrueMVCTests;
@@ -123,6 +139,118 @@
 				2409F6CB201A5B8E003E1588 /* Info.plist */,
 			);
 			path = TrueMVCUITests;
+			sourceTree = "<group>";
+		};
+		2409F6D7201A5BA4003E1588 /* Employees */ = {
+			isa = PBXGroup;
+			children = (
+				2409F6DD201A5C0C003E1588 /* Controller */,
+				2409F6DC201A5C05003E1588 /* Model */,
+				2409F6DB201A5BF3003E1588 /* View */,
+				2409F6E2201A5C53003E1588 /* Employees.storyboard */,
+			);
+			path = Employees;
+			sourceTree = "<group>";
+		};
+		2409F6D8201A5BAE003E1588 /* EmployeeDetail */ = {
+			isa = PBXGroup;
+			children = (
+				2409F6E1201A5C3F003E1588 /* Controller */,
+				2409F6E0201A5C39003E1588 /* Model */,
+				2409F6DF201A5C34003E1588 /* View */,
+				2409F6E4201A5C6B003E1588 /* EmployeeDetail.storyboard */,
+			);
+			path = EmployeeDetail;
+			sourceTree = "<group>";
+		};
+		2409F6DB201A5BF3003E1588 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2409F6EC201A5CBA003E1588 /* EmployeesView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2409F6DC201A5C05003E1588 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2409F6EE201A5CC6003E1588 /* EmployeeModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2409F6DD201A5C0C003E1588 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				24D789BD201A5E910040CE0E /* EmployeesController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2409F6DF201A5C34003E1588 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2409F6EA201A5CA8003E1588 /* EmployeeDetailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2409F6E0201A5C39003E1588 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2409F6E1201A5C3F003E1588 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2409F6E6201A5C7F003E1588 /* EmployeeDetailController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2409F6F2201A5DD4003E1588 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				2409F6D8201A5BAE003E1588 /* EmployeeDetail */,
+				2409F6D7201A5BA4003E1588 /* Employees */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		2409F6F3201A5DDB003E1588 /* DataModels */ = {
+			isa = PBXGroup;
+			children = (
+				2409F6F4201A5E10003E1588 /* Employee.swift */,
+			);
+			path = DataModels;
+			sourceTree = "<group>";
+		};
+		242F0E2C201A756A00EF1E07 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				242F0E2E201A759A00EF1E07 /* EmployeeDetail */,
+				242F0E2D201A757B00EF1E07 /* Employees */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		242F0E2D201A757B00EF1E07 /* Employees */ = {
+			isa = PBXGroup;
+			children = (
+				242F0E30201A75CF00EF1E07 /* EmployeeControllerTests.swift */,
+				242F0E32201A75F100EF1E07 /* EmployeeViewTests.swift */,
+				242F0E34201A760E00EF1E07 /* EmployeeModelTests.swift */,
+			);
+			path = Employees;
+			sourceTree = "<group>";
+		};
+		242F0E2E201A759A00EF1E07 /* EmployeeDetail */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = EmployeeDetail;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,6 +325,7 @@
 					};
 					2409F6B9201A5B8E003E1588 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 2409F6A5201A5B8E003E1588;
 					};
@@ -233,8 +362,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2409F6B4201A5B8E003E1588 /* LaunchScreen.storyboard in Resources */,
+				2409F6E3201A5C53003E1588 /* Employees.storyboard in Resources */,
 				2409F6B1201A5B8E003E1588 /* Assets.xcassets in Resources */,
-				2409F6AF201A5B8E003E1588 /* Main.storyboard in Resources */,
+				2409F6E5201A5C6B003E1588 /* EmployeeDetail.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +389,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2409F6AC201A5B8E003E1588 /* ViewController.swift in Sources */,
+				2409F6F5201A5E10003E1588 /* Employee.swift in Sources */,
 				2409F6AA201A5B8E003E1588 /* AppDelegate.swift in Sources */,
+				24D789BE201A5E910040CE0E /* EmployeesController.swift in Sources */,
+				2409F6ED201A5CBA003E1588 /* EmployeesView.swift in Sources */,
+				2409F6EB201A5CA8003E1588 /* EmployeeDetailView.swift in Sources */,
+				2409F6EF201A5CC6003E1588 /* EmployeeModel.swift in Sources */,
+				2409F6E7201A5C7F003E1588 /* EmployeeDetailController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +403,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2409F6BF201A5B8E003E1588 /* TrueMVCTests.swift in Sources */,
+				242F0E35201A760E00EF1E07 /* EmployeeModelTests.swift in Sources */,
+				242F0E33201A75F100EF1E07 /* EmployeeViewTests.swift in Sources */,
+				242F0E31201A75CF00EF1E07 /* EmployeeControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,14 +433,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		2409F6AD201A5B8E003E1588 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2409F6AE201A5B8E003E1588 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2409F6B2201A5B8E003E1588 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -455,11 +584,14 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TrueMVCTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Allstate.DigitalSafety.TrueMVCTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrueMVC.app/TrueMVC";
@@ -471,11 +603,13 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TrueMVCTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Allstate.DigitalSafety.TrueMVCTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrueMVC.app/TrueMVC";
